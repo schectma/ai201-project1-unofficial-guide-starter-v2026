@@ -22,7 +22,7 @@ pipeline earns credit; *"80% seemed reasonable"* does not.
 For at least 4 of my 5 test questions, the retrieved chunks include one that
 contains the answer.
 
-**Why this target:**
+**Why this target:** Acceptable lower bound of success/relevance.
 <!-- e.g. "One of my questions is about a topic only two documents mention, so
      I expect that one to be hard." -->
 
@@ -32,10 +32,10 @@ contains the answer.
 
 Every answer the system produces names at least one source document.
 
-**Why this target:**
+**Why this target:** Justification of declarations is a standard requirement for model responses.
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
-
+     Model would otherwise risk hallucination.
 ---
 
 ## 3. The relevance gate stops out-of-corpus questions
@@ -49,13 +49,15 @@ in at least 4 of 5 tries.
      what happened into your run log. Swap them for your own if you'd rather —
      just keep five of them, or the "4 of 5" above has nothing to be 4 of. -->
 
-**Why this target:**
+**Why this target:** Demonstrates resilience to both resource and time/attention waste.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
-
+     
 ---
 
-## 4. Something about your chunks
+## 4. One answer per chunk
+
+Each complete answer is contained within a single chunk.
 
 <!-- YOU WRITE THIS ONE.
 
@@ -70,14 +72,14 @@ in at least 4 of 5 tries.
           in my corpus turned out to be a heading with no content under it." -->
 
 
-
-**Why this target:**
-
+**Why this target:** Demonstrates efficient storage and retrieval of information.
 
 
 ---
 
-## 5. Your choice
+## 5. Binary vs. open-ended answers
+
+Yes or no questions are answered as such immediately, within the first sentence.
 
 <!-- YOU WRITE THIS ONE TOO.
 
@@ -87,10 +89,7 @@ in at least 4 of 5 tries.
      present — anything, as long as it names a number or an observable
      outcome. -->
 
-
-
-**Why this target:**
-
+**Why this target:** Model gets to the point and doesn't waste user time.
 
 
 ---
