@@ -35,7 +35,6 @@ Every answer the system produces names at least one source document.
 **Why this target:** Justification of declarations is a standard requirement for model responses.
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
-     Model would otherwise risk hallucination.
 ---
 
 ## 3. The relevance gate stops out-of-corpus questions
@@ -55,9 +54,9 @@ in at least 4 of 5 tries.
      
 ---
 
-## 4. One answer per chunk
+## 4. Retrieved chunks contain the name of the object in question
 
-Each complete answer is contained within a single chunk.
+At least 4 of 5 chunks name the object or artefact targeted in the question without using other chunks that don't contain the actual answer.
 
 <!-- YOU WRITE THIS ONE.
 
@@ -72,14 +71,14 @@ Each complete answer is contained within a single chunk.
           in my corpus turned out to be a heading with no content under it." -->
 
 
-**Why this target:** Demonstrates efficient storage and retrieval of information.
+**Why this target:** Measures accuracy of model's search. Name is the building, dining hall, etc. explicitly queried for one of its properties in the question.
 
 
 ---
 
-## 5. Binary vs. open-ended answers
+## 5. Source attribution correct rather than merely present
 
-Yes or no questions are answered as such immediately, within the first sentence.
+For at least 3 of 5 chunks, the given answer is attributed to the proper source corresponding to the in-question context.
 
 <!-- YOU WRITE THIS ONE TOO.
 
@@ -89,7 +88,7 @@ Yes or no questions are answered as such immediately, within the first sentence.
      present — anything, as long as it names a number or an observable
      outcome. -->
 
-**Why this target:** Model gets to the point and doesn't waste user time.
+**Why this target:** Answers to two questions are present in multiple chunks/docs.
 
 
 ---
