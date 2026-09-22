@@ -169,9 +169,11 @@ In-scope answer distances were 0.185 - 0.478 and out-of-scope were 0.825 - 0.934
 
      Milestone 5. -->
 
-**1.**
+**1.** Asked Claude "Please help us understand how the criteria in `criteria.md` are used in this repo/project. Does any code in the repo interact with it/them?". Claude responded "No code reads criteria.md. Nothing parses it, imports it, or asserts against it. It is a human-written deliverable — a graded artifact, not a config file... **But the criteria do drive the code — through you, not through an import**" Nothing changed, as this was solely asked for information purposes. Claude chosen so it could check the whole codebase before answering.
 
-**2.**
+**2.** Asked Copilot (web):
+"The example idea for the fourth criterion asks "How would you know if your chunks were the right size? Name something countable or observable." Based on what I currently understand about this process, I could arbitrarily choose a reasonable-sounding character or word count for the criterion and justify it by pointing out the typical length of chunks in the corpora. Would that make sense?"
+Copilot (web) responded: "Yes, but only if you tie the criterion to observable retrieval behavior rather than picking a chunk size out of thin air." This helped me grasp the purpose of examining chunks. Ultimately nothing changed, but it led me to notice the way chunks are structured and formulate justification for leaving them alone. 
 
 <!-- ── Stretch features ─────────────────────────────────────────────────────
      Doing one? Say so here BEFORE you start. A feature this README never
