@@ -117,15 +117,25 @@ Laundry costs $1.75 wash, $1.75 dry, app-based. On noise: moderate; the building
 <!-- One complete question and answer, pasted as text, with the source line
      visible. Milestone 4. -->
 
-**Question:**
+**Question:** Through what week number can I add a course?
 
 **Answer:**
 
 ```
+(best distance 0.371, cutoff 0.6)
+
+You can add a course through the end of the second week. 
+
+Source: admin_add_drop_deadline.txt
+
+Sources retrieved: admin_add_drop_deadline.txt, admin_pass_fail_option.txt, advising_registration.txt, course_cs_340.txt, course_cs_340_exams.txt
+
+1 model calls this session, 562 tokens (536 in, 26 out)
 ```
 
-**My relevance cutoff:**
+**My relevance cutoff:** 0.6
 
+In-scope answer distances were 0.185 - 0.478 and out-of-scope were 0.825 - 0.934. Existing 0.6 was between these (0.478 - 0.825) and facilitated expected responses from both categories of question.
 <!-- The number you set in config.py, and how you got there.
 
      You ran five questions your corpus covers and the five in OUT_OF_SCOPE
@@ -137,7 +147,16 @@ Laundry costs $1.75 wash, $1.75 dry, app-based. On noise: moderate; the building
 
 | Question | In corpus? | Best distance |
 |---|---|---|
-|  |  |  |
+| "Through what week number can I add a course?" | Yes | 0.371 |
+| "In which year was Aldridge Hall built?" | Yes | 0.478 |
+| "After what time does the Kestrel Commons salad bar wilt?" | Yes | 0.236 |
+| "What does the CS 210 assessment consist of?" | Yes | 0.333 |
+| "How much does an official transcript cost?"  | Yes | 0.185 |
+| "What is the capital of Mongolia?" | No | 0.825 |
+| "How do I change the oil in a diesel engine?" | No | 0.934 |
+| "Who won the 1994 World Cup?" | No | 0.886 |
+| "What is the recommended dosage of ibuprofen for a headache?" | No | 0.844 |
+| "How do I write a for loop in Rust?" | No | 0.896 |
 
 ## How I Used AI
 
