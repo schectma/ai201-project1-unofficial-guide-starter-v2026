@@ -202,8 +202,8 @@ Copilot (web) responded: "Yes, but only if you tie the criterion to observable r
 
 | Criterion | Target | Run 1 | Run 2 | Run 3 | Verdict |
 |---|---|---|---|---|---|
-| 1. Retrieved chunk contains the answer | 5/5 | 5/5 | 3/5 | 4/5 | MET |
-| 2. Every answer names a source | 5 of 5 | 5/5 | 5/5 | 5/5 | MET |
+| 1. Retrieved chunk contains the answer | 3 of 5 | 5/5 | 5/5 | 5/5 | MET |
+| 2. Every answer names a source | 5 of 5 | 4/5 | 5/5 | 5/5 | MET |
 | 3. Gate stops out-of-corpus questions | 4 of 5 | 5/5 | 5/5 | 5/5 | MET |
 | 4. Retrieved chunks contain the name of the object in question | 4 of 5 | 5/5 | 5/5 | 5/5 | MET |
 | 5. Source attribution correct rather than merely present | 3 of 5 | 5/5 | 5/5 | 5/5 | MET |
