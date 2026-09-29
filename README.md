@@ -290,13 +290,13 @@ Commit this file. It's the evidence the run actually happened.
      low, and which one you'd tighten and to what.
 
      Milestone 3. -->
-     Nothing missed. 
+     Nothing missed. Targets weren't set low, especially the final two I added. There's no guarantee object names or correct sources would be present in answers.
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** Nothing.
 
-**Why I picked it:**
+**Why I picked it:** N/A
 
 <!-- Connect it to a specific diagnosis above in one sentence. If you can't,
      you picked a fix because it sounded impressive. -->
