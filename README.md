@@ -308,14 +308,15 @@ Commit this file. It's the evidence the run actually happened.
 
 | Criterion | Target | Run 1 | Run 2 | Run 3 | Verdict |
 |---|---|---|---|---|---|
-| 1. Retrieved chunk contains the answer | 4 of 5 |  |  |  |  |
-| 2. Every answer names a source | 5 of 5 |  |  |  |  |
-| 3. Gate stops out-of-corpus questions | 4 of 5 |  |  |  |  |
-| 4. | | | | | |
-| 5. | | | | | |
+| 1. Retrieved chunk contains the answer | 4 of 5 | 5/5 | 5/5 | 5/5 | MET |
+| 2. Every answer names a source | 5 of 5 | 5/5 | 5/5 | 5/5 | 5/5 |
+| 3. Gate stops out-of-corpus questions | 4 of 5 | 5/5 | 5/5 | 5/5 | MET |
+| 4. Retrieved chunks contain the name of the object in question | 4 of 5| 5/5 | 5/5 | 5/5 | MET |
+| 5. Source attribution correct rather than merely present | 3 of 5 | 5/5 | 5/5 | 5/5 | MET |
 
 **Did it help?**
 
+Nothing changed. Not applicable.
 <!-- Say plainly whether it did, and how you know. If it made things worse,
      say that — a change that backfired, honestly reported, earns full credit
      and is more interesting than one that worked. What matters is that you can
@@ -332,6 +333,7 @@ Commit this file. It's the evidence the run actually happened.
      not.
 
      Milestone 5. -->
+N/A
 
 ## What I'd Do Differently
 
@@ -339,3 +341,4 @@ Commit this file. It's the evidence the run actually happened.
      differently, and why?
 
      Milestone 5. -->
+Criterion 2. Does not specify whether the source should be labeled. This is technically inconsistent in responses up to this point.
