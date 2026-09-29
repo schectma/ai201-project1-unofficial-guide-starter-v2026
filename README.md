@@ -265,11 +265,11 @@ Commit this file. It's the evidence the run actually happened.
 
 | # | Criterion | Verdict | How I decided |
 |---|---|---|---|
-| 1 |  | MET |  |
-| 2 |  | MET |  |
-| 3 |  | MET |  |
-| 4 |  | MET |  |
-| 5 |  | MET |  |
+| 1 | Retrieved chunk contains the answer | MET | All retrieved chunks across all runs contain the answer. |
+| 2 | Every answer names a source | MET | All answers across all runs name a source.  |
+| 3 | Gate stops out-of-corpus questions | MET | Out-of-corpus questions stopped (not fed through API) across all runs. |
+| 4 | Retrieved chunks contain the name of the object in question | MET | All retrieved chunks across all runs contain the name of the object. |
+| 5 | Source attribution correct rather than merely present | MET | Source properly cited for all answers across all runs. |
 
 ## Diagnoses
 
