@@ -211,10 +211,46 @@ Copilot (web) responded: "Yes, but only if you tie the criterion to observable r
 <!-- Underneath, paste the REAL output for each criterion from one of your
      runs — the actual text your system produced, not a description of it.
      Name the file and function that produced it. -->
+```
 Through what week number can I add a course?
-run 1: pass  (best distance 0.371)
-run 2: pass  (best distance 0.371)
-run 3: pass  (best distance 0.371)
+  run 1: pass  (best distance 0.371)
+  run 2: pass  (best distance 0.371)
+  run 3: pass  (best distance 0.371)
+
+In which year was Aldridge Hall built?
+  run 1: pass  (best distance 0.478)
+  run 2: pass  (best distance 0.478)
+  run 3: pass  (best distance 0.478)
+
+After what time does the Kestrel Commons salad bar wilt?
+  run 1: pass  (best distance 0.236)
+  run 2: pass  (best distance 0.236)
+  run 3: pass  (best distance 0.236)
+
+What does the CS 210 assessment consist of?
+  run 1: pass  (best distance 0.333)
+  run 2: pass  (best distance 0.333)
+  run 3: pass  (best distance 0.333)
+
+How much does an official transcript cost?
+  run 1: pass  (best distance 0.185)
+  run 2: pass  (best distance 0.185)
+  [rate limit] service pushed back. Retrying in 1s (attempt 1 of 4).
+  run 3: pass  (best distance 0.185)
+
+Out-of-scope questions (the gate should refuse these):
+  refused  (best distance 0.825)  What is the capital of Mongolia?
+  refused  (best distance 0.934)  How do I change the oil in a diesel engine?
+  refused  (best distance 0.886)  Who won the 1994 World Cup?
+  refused  (best distance 0.844)  What is the recommended dosage of ibuprofen for a headache?
+  refused  (best distance 0.896)  How do I write a for loop in Rust?
+  -> gate refused 5 of 5
+
+Wrote results\run_2026-09-29_0951_before.md
+16 model calls this session, 9489 tokens (8988 in, 501 out)
+
+Commit this file. It's the evidence the run actually happened.
+```
 
 ## Verdicts
 
@@ -229,11 +265,11 @@ run 3: pass  (best distance 0.371)
 
 | # | Criterion | Verdict | How I decided |
 |---|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+| 1 |  | MET |  |
+| 2 |  | MET |  |
+| 3 |  | MET |  |
+| 4 |  | MET |  |
+| 5 |  | MET |  |
 
 ## Diagnoses
 
@@ -254,6 +290,7 @@ run 3: pass  (best distance 0.371)
      low, and which one you'd tighten and to what.
 
      Milestone 3. -->
+     Nothing missed. 
 
 ## The Improvement
 
